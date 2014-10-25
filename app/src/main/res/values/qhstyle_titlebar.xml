@@ -1,0 +1,11 @@
+<resources>
+    <style name="TitleBg">
+        <item name="android:background">#556B2F</item>
+    </style>
+    <style name="titlebar_Themeqhstyle" parent="android:Theme">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:background">#ffd6d6d6</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBg</item>
+    </style>
+</resources>

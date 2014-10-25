@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">起哄</string>
+    <string name="avos_app_id">fjvaq6g166vgqqczbu64ixjwp76detjo6wnjm70g954vhjjm</string>
+    <string name="avos_app_key">qkpmx3ssql4jf378d7w51f4btli9fygiqn03c6hidtwt6cl0</string>
+    <string name="avos_master_key">nuvxxwatzx014ug7hkj3zvjuz0oyrgxbjjpu57nx9hnhj3es</string>
+
+    <!-- show string-->
+    <string name="qh_activity_view_bt_user">我的</string>
+    <string name="qh_activity_view_bt_camera">拍照</string>
+    <string name="qh_activity_view_bt_home">首页</string>
+    <string name="qh_addpichint_comment">对这逼说点啥？</string>
+    <string name="qh_submit_toast_noimage_comment">果然傻叉，没图片传个蛋！</string>
+    <string name="qh_submit_toast_nodetail_comment">你这样傻叉们看不懂吧？</string>
+    <string name="qh_submit_toast_nodetail_comment_ok">傻叉就懂</string>
+    <string name="qh_submit_toast_nodetail_comment_no">我傻叉了</string>
+    <string name="qh_submit_toast_uploading_comment">再点，手机自爆了哈</string>
+
+    <!-- service string-->
+    <string name="qh_service_postclass">Post</string>
+    <string name="qh_service_postitem_file">image</string>
+    <string name="qh_service_postitem_detail">detail</string>
+
+    <!-- test string-->
+    <string name="urlString">http://192.168.0.100:3000</string>
+</resources>

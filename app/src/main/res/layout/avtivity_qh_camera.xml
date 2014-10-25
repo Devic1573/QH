@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QH_CameraActivity" >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.project.weijinwen.qihong.QHCamera.QH_CameraSurfaceView
+            android:id="@+id/camera_surfaceview"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btn_shutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:background="@color/wallet_dim_foreground_disabled_holo_dark" />
+
+    <ImageView
+        android:id="@+id/camera_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</RelativeLayout>
