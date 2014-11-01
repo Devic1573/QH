@@ -1,16 +1,19 @@
-package com.project.weijinwen.qihong;
+package com.project.weijinwen.qihong.QH_AVOS;
 
 import com.avos.avoscloud.AVException;
 import com.avos.avoscloud.AVUser;
 import com.avos.avoscloud.LogInCallback;
 import com.avos.avoscloud.SignUpCallback;
+import com.project.weijinwen.qihong.QH_Activity_Signin;
+import com.project.weijinwen.qihong.QH_DeviceInfo;
+import com.project.weijinwen.qihong.QH_Log;
 
 /**
  * Created by weijinwen on 14-10-7.
  */
 public class QH_AVOSUser {
 
-    QH_AVOSUser(String email, String password, QH_Activity_Signin activity) {
+    public QH_AVOSUser(String email, String password, QH_Activity_Signin activity) {
         mEmail = email;
         mPassword = password;
         mQHSigninActivity = activity;

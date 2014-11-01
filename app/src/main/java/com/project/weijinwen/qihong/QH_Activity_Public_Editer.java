@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -93,6 +92,7 @@ public class QH_Activity_Public_Editer extends Activity {
         mbtImage = new ImageButton(this);
         LayoutParams iamgeparams = new LayoutParams(iWidth/2, iWidth/2);
         mbtImage.setLayoutParams(iamgeparams);
+        mbtImage.setScaleType(ImageButton.ScaleType.FIT_XY);
         mbtImage.setBackgroundResource(android.R.drawable.ic_menu_add);
 
         mEditText = new EditText(this);
@@ -291,7 +291,6 @@ public class QH_Activity_Public_Editer extends Activity {
 
     private void editPhotoEnd(Uri picuri) {
         Bitmap bitmap = decodeUriAsBitmap(picuri);
-        bitmap = ThumbnailUtils.extractThumbnail(bitmap, mbtImage.getWidth(), mbtImage.getWidth());
         mbtImage.setImageBitmap(bitmap);
 
         mEditText.setEnabled(true);

@@ -24,6 +24,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.project.weijinwen.qihong.QH_AVOS.QH_AVOSUser;
+
 import java.util.ArrayList;
 import java.util.List;
 

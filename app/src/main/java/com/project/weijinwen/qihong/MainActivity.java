@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.project.weijinwen.qihong.QH_AVOS.QH_AVOSUser;
+
 
 public class MainActivity extends Activity {
 

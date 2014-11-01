@@ -6,12 +6,12 @@ package com.project.weijinwen.qihong;
 
 import android.app.Application;
 
-import com.avos.avoscloud.AVOSCloud;
+import com.project.weijinwen.qihong.QH_AVOS.QH_AVService;
 
 public class QH_Application extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        AVOSCloud.initialize(this, getString(R.string.avos_app_id), getString(R.string.avos_app_key));
+        QH_AVService.AVInit(this, getString(R.string.avos_app_id), getString(R.string.avos_app_key));
     }
 }
